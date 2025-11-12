@@ -1,6 +1,6 @@
-# 📘 README — SmartQA+: Natural Language Question Answering API
+#  README — SmartQA+: Natural Language Question Answering API
 
-## 📍 Project Overview
+##  Project Overview
 SmartQA+ is a semantic question-answering system that answers natural-language questions based on real-world member messages retrieved from a public API.
 
 It uses:
@@ -10,7 +10,7 @@ It uses:
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 1. Fetch all messages via REST API (`GET /messages`).  
 2. Convert each message and the user question into embeddings.  
 3. Use cosine similarity to select top 3 relevant messages.  
@@ -19,7 +19,7 @@ It uses:
 
 ---
 
-## 🧠 Example Output
+##  Example Output
 ```json
 {
   "question": "When is Layla planning her trip to London?",
